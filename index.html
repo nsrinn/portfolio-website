@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Navbar Example</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- font family links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/6e4f86569d.js" crossorigin="anonymous"></script>
+  <!-- css connection -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- <div class="container" > -->
+    <div class="head-body">
+        <!-- <img class="d-block w-100" src="https://img.freepik.com/free-photo/one-person-typing-laptop-night-generated-by-ai_188544-27872.jpg" alt="First slide"> -->
+      <header class="container">
+          <nav class="navbar navbar-expand-lg  ">
+              <a class="navbar-brand h4 text-light  logo" href="#"> <span class="h1">N</span><i class="h4">asrin</i></a>
+              
+              <!-- Toggle button for small screens -->
+              <button class="navbar-toggler text-light menubar" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+              </button>
+            
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse h5" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active ">
+                  <a class="nav-link text-light  h5" href="#home">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link text-light h5" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link text-light h5" href="#skills">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-light h5" href="#Education">Education</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-light " href="#projects">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link text-light h5" href="#contact">Contact</a>
+                  </li>
+              </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="home">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100 img-fluid" src="https://png.pngtree.com/background/20230513/original/pngtree-woman-typing-a-keyboard-at-night-in-dark-room-picture-image_2504618.jpg" alt="First slide">
+                <div class="carousel-caption  d-md-block">
+                    <h1 class="display-1 h1" ><strong id="typing-text">Hi I'm Nasrin</strong></h1>
+                    <p>Full Stack Developer</p>
+                    <p>
+                    <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/nasrin-c-68711421a"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </p>
+                  </div>
+              </div>
+              
+            </div>
+          </div>
+    </section>
+    </div>
+    
+
+<!------------------------------------------About Me Section------------------------------------------------------------------------------------------------------------ -->
+<section class="mb-10" id="about">
+    <div class="container mb-5">
+      <div class="col-md-12">
+        <h1 class="display-3 h1 text-center pt-5">About Me</h1>
+        <h3 class="display-5 text-center py-3 head-full">Full Stack Developer</h3>
+        <p class=" h5 text-center lh-5">
+          I am a B.Tech graduate in IT, adept at self-directed learning, and possess a solid foundation in programming. My proactive approach to expanding my programming knowledge has equipped me with versatile skills to tackle diverse challenges in the ever-evolving field of technology.
+        </p>
+        <div class="col text-center py-4 ">
+          <button  class="btn btn-light p-3 px-5">Hire Me</button>
+          <button  class="btn btn-light p-3 px-4">Download Resume</button>
+        </div> 
+      </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="container section-3 mb-5">
+    <br>
+    <!-- <img src="https://st2.depositphotos.com/3889193/7641/i/450/depositphotos_76413377-stock-photo-hipster-desktop-with-male-hands.jpg" alt="" class="img-fluid image-2"> -->
+   <div class=" sec3-content-head clearfix mb-2">
+    <div class="col-md-12 text-center">
+      <div class="text-center">
+        <h4 class=" text-center display-4 h5 font-weight-bold text-dark sec3-head">PROJECT YOU CAN OFFER ME</h4>
+        <p class=" h5 text-center lh-5 sec3-p"> I specialize in creating visually striking and innovative programming projects that showcase both technical expertise and aesthetic appeal.</p>
+      </div>
+    </div>
+    <div class="row projects float-left mb-3">
+      <div class="col-md-3 float-left">
+        <div class="card" style="width: 16rem;">
+          <div class="card-body">
+            <h5 class="card-title display-1 text-center"><i class="fa-brands fa-html5"></i></h5>
+            <h6 class="card-title mb-3 h3 text-center title"> <strong>HTML</strong> DEVELOPMENT</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 float-left">
+        <div class="card" style="width: 16rem;">
+          <div class="card-body">
+            <h5 class="card-title display-1 text-center"><i class="fa-brands fa-css3-alt"></i></h5>
+            <h6 class="card-title mb-3 h3 text-center"> <strong>CSS</strong> DEVELOPMENT</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 float-left">
+        <div class="card" style="width: 16rem;">
+          <div class="card-body">
+            <h5 class="card-title display-1 text-center"><i class="fa-brands fa-php"></i></h5>
+            <h6 class="card-title mb-3 h3 text-center"> <strong>PHP</strong> DEVELOPMENT</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 float-left">
+        <div class="card" style="width: 16rem;">
+          <div class="card-body">
+            <h5 class="card-title display-1 text-center"><i class="fa-brands fa-python"></i></h5>
+            <h6 class="card-title mb-3 h3 text-center"> <strong>Python</strong> DEVELOPMENT</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!-- second row -->
+      <div class=" row projects float-left mb-3 ">
+        <div class="col-md-3 float-left">
+          <div class="card" style="width: 16rem;">
+            <div class="card-body">
+              <h5 class="card-title display-1 text-center"><i class="fa-brands fa-js"></i></h5>
+              <h6 class="card-title mb-3 h3 text-center"> <strong>JS</strong> DEVELOPMENT</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 float-left">
+          <div class="card" style="width: 16rem;">
+            <div class="card-body">
+              <h5 class="card-title display-1 text-center"><i class="fa-brands fa-wordpress"></i></h5>
+              <h6 class="card-title mb-3 h3 text-center"> <strong>WEB</strong> DEVELOPMENT</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 float-left">
+          <div class="card" style="width: 16rem;">
+            <div class="card-body">
+              <h5 class="card-title display-1 text-center"><i class="fa-solid fa-database"></i></h5>
+              <h6 class="card-title mb-3 h3 text-center"><strong>SQL</strong> DEVELOPMENT</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3  float-left">
+          <div class="card" style="width: 16rem;">
+            <div class="card-body">
+              <h5 class="card-title display-1 text-center"><i class="fa-brands fa-wordpress"></i></h5>
+              <h6 class="card-title mb-3 h3 text-center"> <strong>Design</strong> DEVELOPMENT</h6>
+            </div>
+          </div>
+        </div>
+    </div> 
+  </div>
+  <br>
+  </div>
+</section>
+
+<section>
+  <div class="container mb-5 project_details">
+    <div class="col-md-12 ">
+      <h1 class="display-3 h1 text-center pt-5">Project Details</h1>
+      <h3 class="display-5 text-center py-3 head-full"></h3>
+      <p class=" h5 text-center lh-5">
+        I have undertaken diverse projects aimed at enhancing my proficiency in software development.These projects were aimed at improving my proficiency in different aspects of the field.
+      </p>
+    </div>
+  <div class="col-md-12 p-5 text-center projects">
+    <div class="col-md-10 text-center project1  project">
+      <br>
+      <div class="project1-content m">
+        <h1 class="display-5 text-light pt-3">BED TRACKING SYSTEM</h1>
+        <h4 class="display-5 pb-2 h4-sec4" >Web development</h4>
+        <p class="pb-1 para">A website that tracked vacant bed details from nearby hospitals. To develop this website, I utilized PHP and MySQL for the back-end and HTML, CSS, and Java Script for the front-end. This project has provided me with valuable experience in using IDEs such as VS Code and XAMPP, has further enhanced my proficiency in web development.</p>
+      </div>
+      <br>
+    </div>
+    <div class="col-md-10 text-center project2 mt-4 project">
+      <br>
+      <div class="project1-content m">
+        <h1 class="display-5 text-light pt-3">PALLICARE</h1>
+        <h4 class="display-5 pb-2 h4-sec4" >Mobile App</h4>
+        <p class="pb-1 para">An android application for palliative authorities, where I utilized Python and MySQL for the backend and HTML, CSS, and Java Script for the frontend. This project provided me with hands-on experience in Android Studio and PyCharm.</p>
+      </div>
+      <br>
+    </div>
+
+      <div class="col-md-10 text-center project3 mt-4 project">
+        <br>
+        <div class="project1-content m">
+          <h1 class="display-5 text-light pt-3">BED TRACKING SYSTEM</h1>
+          <h4 class="display-5 pb-2 h4-sec4" >Web development</h4>
+          <p class="pb-1 para">A website that tracked vacant bed details from nearby hospitals. To develop this website, I utilized PHP and MySQL for the back-end and HTML, CSS, and Java Script for the front-end. This project has provided me with valuable experience in using IDEs such as VS Code and XAMPP, has further enhanced my proficiency in web development.</p>
+        </div>
+        <br>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="container my-3 ">
+      <div class="col-md-12 float-left">
+        <h1 class="display-3 h1 text-center pt-5">My Skills</h1>
+        <h5 class="display-6 pb-2 h4-sec4 text-center" >Web & App development</h5>
+      </div>
+    <div class="row">
+      <div class="col-md-3 col-sm-6 skillset float-left">
+        <div class="card cardpro" style="width: 85%;">
+          <div class="circular-progress" data-end-value="80">
+            <div class="progress-value">80%</div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-center">HTML & CSS</h5>
+          
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 skillset float-left">
+        <div class="card cardpro" style="width: 85%;">
+          <div class="circular-progress"  data-end-value="40">
+            <div class="progress-value">40%</div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-center">Python</h5>
+          
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 skillset float-left">
+        <div class="card cardpro" style="width: 85%;">
+          <div class="circular-progress" data-end-value="10">
+            <div class="progress-value">10%</div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-center">PHP</h5>
+          
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 skillset float-left">
+        <div class="card cardpro" style="width: 85%;">
+          <div class="circular-progress" data-end-value="30">
+            <div class="progress-value">30%</div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title display-5 text-center">JS & Jquery</h5>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+<section id="Education">
+  <div class="container edu">
+      <div class="col-md-12 float-left">
+        <h1 class="display-3 h1 text-center pt-5">Education</h1>
+        <h5 class="display-6 pb-2 h4-sec4 text-center" >B Tech Graduate in IT</h5>
+      </div>
+      <div class="row">
+        <div class="col-md-4 pb-4">
+          <div class="card bg-dark bg-gradient text-white edu-card">
+            <img src="pkm.jpg" class="card-img-top img-fluid rounded-circle mt-3 edu-img" alt="..." >
+            <div class="card-body">
+              <h5 class="card-title">High School</h5>
+              <p class="card-text"> Completed SSLC with 95% mark from PKMMHSS Edarikode</p>
+              <a href="https://pkmmhss.in/" class="btn btn-info">View School</a>
+            </div>
+          </div>
+          
+        </div>
+
+        <div class="col-md-4 pb-4">
+          <div class="card bg-dark bg-gradient text-white edu-card">
+            <img src="PKMMHSS_Edarikode.jpg" class="card-img-top img-fluid  rounded-circle mt-3 edu-img" alt="..." >
+            <div class="card-body">
+              <h5 class="card-title">Higher Secondary</h5>
+              <p class="card-text">Completed HSE with 93% mark from PKMMHSS Edarikode</p>
+              <a href="https://pkmmhss.in/" class="btn btn-info">View School</a>
+            </div>
+          </div>
+          
+        </div>
+
+        <div class="col-md-4 pb-4">
+          <div class="card bg-dark bg-gradient text-white edu-card" >
+            <img src="CUIET.jpg" class="card-img-top img-fluid rounded-circle mt-3 edu-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Under Graduation</h5>
+              <p class="card-text ">Completed UG in B tech (IT) with 7.55 CGPA from CUIET Kohinoor</p>
+              <a href="http://www.cuiet.info/" class="btn btn-info">View College</a>
+            </div>
+          </div>
+          
+        </div>
+          
+      </div>
+  </div>
+</section>
+<section id="contact">
+  <div class="container">
+    <div class="col-md-12 float-left">
+      <h1 class="display-3 h1 text-center pt-5">Contact Me!</h1>
+      <!-- <h5 class="display-6 pb-2 h4-sec4 text-center" >B Tech Graduate in IT</h5> -->
+    </div>
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">Please type your email address.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputmessage">Your Message </label>
+        <input type="text" class="form-control" id="exampleInputmessage" placeholder="Message in one line">
+      </div>
+      <button type="submit" class="btn btn-info">Submit</button>
+    </form>
+  </div>
+</section>
+  <footer class="text-center text-white mt-5 " style="background-color: #f1f1f1;">
+    <!-- Grid container -->
+    <div class="container pt-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <!-- Github -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023
+      <a class="text-dark" href="">nasrin.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+
+
+  <!-- Bootstrap JS (optional, for dropdown functionality) -->
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

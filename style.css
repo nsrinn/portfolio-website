@@ -1,0 +1,637 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+  z-index: 1;
+}
+.logo{
+  padding-left: 0%;
+
+}
+.head-body{
+    background-image: url("https://png.pngtree.com/background/20230513/original/pngtree-woman-typing-a-keyboard-at-night-in-dark-room-picture-image_2504618.jpg");
+    background-color: rgba(233, 221, 221, 0.203);
+    background-position: 100% 100%;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    /* color: white; */
+    opacity: 1;
+}
+
+  .navbar-toggler-icon span{
+    color: #fff !important;
+  }
+ 
+  .navbar-nav li a{
+    /* color:black !important; */
+  }
+ .navbar-nav li a:hover{
+    /* color:rgb(167, 46, 94) !important; */
+    text-decoration: underline 0.15em rgb(167, 46, 94) !important;
+    transition: text-decoration-color 300ms;
+ }
+
+ .img-fluid{
+  margin-top: -10%;
+ }
+ .img-fluid:hover{
+  transition: 1s ease-in-out;
+ }
+
+ .carousel-caption{
+  width:70%;
+  color: white;
+  cursor: pointer;
+  bottom: 15%;
+  font-weight: 700 !important;
+  font-size: xx-large;
+  background-color: rgba(0, 0, 0, 0.363);
+  /* border: 3px solid white; */
+  animation: mymove 5s infinite;
+ 
+ }
+ @keyframes mymove {
+  0%   {top: 200px;}
+  25%  {top: 200px;}
+  75%  {top: 100px}
+  100% {top: 100px;}
+  /* 0%   {left: 0px;} */
+  
+}
+ .display-1{
+  white-space: nowrap;
+  overflow: hidden;
+ }
+ .display-1:hover{
+  color:rgb(167, 46, 94) !important;
+  cursor: pointer;
+ }
+ .carousel-caption p:hover{
+  color: wheat;
+ }
+ .carousel-caption p a{
+  color: white;
+  padding-left: 10px;
+ }
+ .carousel-caption p a:hover{
+  color:rgb(167, 46, 94) ;
+
+ }
+
+ 
+.h5{
+  width:90%;
+  /* padding: %; */
+  padding-left: 10%;
+  padding-right: 5%;
+  line-height: 200%;
+  letter-spacing: 1%;
+  font-weight: lighter !important;
+  /* line-height: 24px; */
+}
+.head-full{
+  color:rgb(167, 46, 94) ;
+}
+.btn-light{
+  color:rgb(167, 46, 94) !important;
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1.5px solid rgb(167, 46, 94);
+  border-radius: 0px !important;
+
+}
+
+.section-3{
+  /* background-image: url("https://st2.depositphotos.com/3889193/7641/i/450/depositphotos_76413377-stock-photo-hipster-desktop-with-male-hands.jpg"); */
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-color: #60606010;
+  background-size: cover;
+  
+}
+.section-3:hover{
+  
+}
+.sec3-content-head{
+  /* width:90%; */
+  /* padding-left: 5%; */
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  color:white;
+}
+.sec3-head{
+  color: black !important;
+}
+.sec3-p{
+  color:rgb(180, 15, 81) !important;
+  font-weight: 400 !important;
+}
+.card{
+  background-color: black !important;
+}
+.project1,.project2,.project3{
+  margin-left: 8%;
+  /* width:80%; */
+}
+.project_details{
+  background-color:rgba(180, 15, 81, 0.041); 
+}
+.project{
+  cursor: pointer;
+}
+.project:hover{
+ /* background-color: red !important; */
+    width:100%;
+    /* height:600px; */
+    background-image: none;
+    background-color: black;
+
+}
+.project1{
+  background: url("https://www.lifewire.com/thmb/rlD8X7mqgqPN9foN3wZfdrI7Gsg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/mixed-race-woman-using-laptop-at-table-591404029-5a8d90eb642dca0036707cca.jpg");
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.project2{
+  background: url("https://images.pexels.com/photos/1181555/pexels-photo-1181555.jpeg?cs=srgb&dl=pexels-christina-morillo-1181555.jpg&fm=jpg");
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.project3{
+  background: url("https://i.pinimg.com/originals/dd/0d/37/dd0d37b8fa200230d80744dfb6fa1a99.jpg");
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rgb(255, 255, 255) !important; */
+  
+}
+
+.h4-sec4{
+  color:rgb(180, 15, 81) !important;
+}
+.projects{
+  /* background-color: gray; */
+}
+.para{
+  color:white;
+  padding-left: 10%;
+  padding-right: 5%;
+  line-height: 200%;
+  letter-spacing: 1%;
+  /* font-weight: lighter !important; */
+
+}
+.project1-content{
+  /* width: 80%; */
+  background-color: rgba(34, 31, 31, 0.792);
+}
+.skillset{
+  display: flex;
+  width: 420px;
+  padding: 50px 0;
+  border-radius: 8px;
+  background: #fff;
+  row-gap: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+.circular-progress{
+  position: relative;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background: conic-gradient(rgb(180, 15, 81) 3.6deg, #ededed 0deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circular-progress::before{
+  content: "";
+  position: absolute;
+  height: 210px;
+  width: 80%;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.progress-value{
+  position: relative;
+  font-size: 40px;
+  font-weight: 600;
+  color: rgb(180, 15, 81);
+}
+.text{
+  font-size: 30px;
+  font-weight: 500;
+  color: #606060;
+}
+.cardpro{
+  background-color: white !important;
+  border: none;
+}
+.edu-img{
+  height: 20rem;
+  width:15rem; 
+  margin-left: 11%;
+}
+.edu-card{
+  width: 20rem;
+   height: 30rem;
+}
+.btn-info{
+  background-color: rgb(180, 15, 81) ;
+  border:1px solid  rgb(180, 15, 81);
+}
+.edu{
+  background-color:rgba(128, 128, 128, 0.075) ;
+}
+@media only screen and (min-width: 768px) and (max-width: 1203px) {
+  .logo{
+    padding-left:0% !important;
+  
+  }
+
+  .display-1{ 
+    font-size: 300%;
+    font-weight: 300;
+  }
+  
+   .img-fluid{
+    margin-top: -10%;
+   }
+  
+   .carousel-caption{
+    width:50%;
+    /* right:00px; */
+    color: white;
+    cursor: pointer;
+    bottom: 5%;
+    font-weight: 500 !important;
+    font-size: x-large !important;
+    background-color: rgba(0, 0, 0, 0.363);
+    /* border: 3px solid white; */
+    animation: mymove 5s infinite;
+    max-width: 676px;
+    
+   
+   }
+   @keyframes mymove {
+    0%   {top: 100px;}
+    25%  {top: 100px;}
+    75%  {top: 50px}
+    100% {top: 50px;}
+    
+    
+  }
+  .display-3{
+    font-size:250% !important;
+  }
+  .display-5,.display-4{
+    font-size: 150% !important;
+  }
+  .head-full{
+    color:rgb(167, 46, 94) ;
+  }
+  .h5{
+    font-size: medium;
+  }
+  .btn-light{
+    color:rgb(167, 46, 94) !important;
+    font-weight: 500;
+    font-size: small;
+    
+    margin-bottom: 5%;
+    width:12rem;
+    height:3rem;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1.5px solid rgb(167, 46, 94);
+    border-radius: 0px !important;
+  
+  }
+  .col-md-3{
+    width: 80%;
+   display: flex;
+   z-index: 1;
+   flex-direction:column;
+   margin-bottom: 3%;
+   margin-left: 19%;
+   /* justify-content: center; */
+   /* align-items: center; */
+   /* width:90% !important; */
+
+    /* padding: 10%; */
+  }
+  
+  .projects{
+    width:85%;
+    font-size: x-large;
+  }
+  
+  .section-3{
+    /* background-image: url("https://st2.depositphotos.com/3889193/7641/i/450/depositphotos_76413377-stock-photo-hipster-desktop-with-male-hands.jpg"); */
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-color: #60606033;
+    background-size: cover;
+    
+  }
+  .sec3-content-head{
+    /* width:90%; */
+    /* padding-left: 5%; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    color:white;
+  }
+  .sec3-head{
+    color: black !important;
+  }
+  .sec3-p{
+    color:rgb(180, 15, 81) !important;
+    font-weight: 200 !important;
+    font-size: small !important;
+    /* text-align: center !important; */
+    width:80%;
+    margin-left: 10%;
+  }
+  .card{
+    background-color: black !important;
+  }
+  .project1,.project2,.project3{
+    margin-left: 0%;
+    width:100%;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 18%;
+
+  }
+  .project_details{
+    background-color:rgba(180, 15, 81, 0.041); 
+  }
+  .project{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+
+  
+  .h4-sec4{
+    color:rgb(180, 15, 81) !important;
+  }
+
+
+  .skillset{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    padding: 50px 0;
+    border-radius: 8px;
+    background: #fff;
+    row-gap: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+ .col-md-4{
+  display: flex;
+  flex-direction: column;
+  /* margin-bottom: 3%; */
+  justify-content: center;
+  align-items: center;
+ }
+  .text{
+    font-size: 30px;
+    font-weight: 500;
+    color: #606060;
+  }
+  .cardpro{
+    background-color: white !important;
+    border: none;
+  }
+  .edu-img{
+    height: 20rem;
+    width:8rem; 
+    margin-left: 17%;
+   
+  }
+  .edu-card{
+    width: 13rem;
+     height: 30rem;
+  }
+  .btn-info{
+    background-color: rgb(180, 15, 81) ;
+    border:1px solid  rgb(180, 15, 81);
+  }
+  .edu{
+    background-color:rgba(128, 128, 128, 0.199) ;
+  }
+ 
+}
+
+@media (max-width: 767px) 
+{
+  .logo{
+    padding-left: 0% !important;
+  
+  }
+
+  .display-1{ 
+    font-size: xx-large;
+    font-weight: 300;
+  }
+  
+   .img-fluid{
+    margin-top: -10%;
+   }
+   .circular-progress{
+    /* position: relative; */
+
+    height: 250px;
+    width: 90%;
+    margin-left: 9%;
+    border-radius: 50%;
+    background: conic-gradient(rgb(180, 15, 81) 3.6deg, #ededed 0deg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+   .carousel-caption{
+    width:50%;
+    /* right:00px; */
+    color: white;
+    cursor: pointer;
+    bottom: 5%;
+    font-weight: 500 !important;
+    font-size: x-large !important;
+    background-color: rgba(0, 0, 0, 0.363);
+    /* border: 3px solid white; */
+    animation: mymove 5s infinite;
+    max-width: 406px;
+    
+   
+   }
+   @keyframes mymove {
+    0%   {top: 50px;}
+    25%  {top: 50px;}
+    75%  {top: 25px}
+    100% {top: 25px;}
+    
+    
+  }
+  .display-3{
+    font-size:300% !important;
+  }
+  .display-5,.display-4{
+    font-size: 150% !important;
+  }
+  .head-full{
+    color:rgb(167, 46, 94) ;
+  }
+  .h5{
+    font-size: medium;
+  }
+  .btn-light{
+    color:rgb(167, 46, 94) !important;
+    font-weight: 500;
+    font-size: small;
+    
+    margin-bottom: 5%;
+    width:12rem;
+    height:3rem;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1.5px solid rgb(167, 46, 94);
+    border-radius: 0px !important;
+  
+  }
+  .col-md-3{
+    width: 100% !important;
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 3%;
+   justify-content: center;
+   align-items: center;
+   width:90% !important;
+
+    /* padding: 10%; */
+  }
+  
+  .section-3{
+    /* background-image: url("https://st2.depositphotos.com/3889193/7641/i/450/depositphotos_76413377-stock-photo-hipster-desktop-with-male-hands.jpg"); */
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-color: #60606033;
+    background-size: cover;
+    
+  }
+  .sec3-content-head{
+    /* width:90%; */
+    /* padding-left: 5%; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    color:white;
+  }
+  .sec3-head{
+    color: black !important;
+  }
+  .sec3-p{
+    color:rgb(180, 15, 81) !important;
+    font-weight: 200 !important;
+    font-size: small !important;
+  }
+  .card{
+    background-color: black !important;
+  }
+  .project1,.project2,.project3{
+    margin-left: 0%;
+    /* width:80%; */
+  }
+  .project_details{
+    background-color:rgba(180, 15, 81, 0.041); 
+  }
+  .project{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+
+  
+  .h4-sec4{
+    color:rgb(180, 15, 81) !important;
+  }
+
+
+  .skillset{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    padding: 50px 0;
+    border-radius: 8px;
+    background: #fff;
+    row-gap: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+ .col-md-4{
+  display: flex;
+  flex-direction: column;
+  /* margin-bottom: 3%; */
+  justify-content: center;
+  align-items: center;
+ }
+  .text{
+    font-size: 30px;
+    font-weight: 500;
+    color: #606060;
+  }
+  .cardpro{
+    background-color: white !important;
+    border: none;
+  }
+  .edu-img{
+    height: 20rem;
+    width:90%; 
+    margin-left: 6%;
+   
+  }
+  .edu-card{
+    width: 100%;
+    min-width: 10rem;
+     height: 32rem;
+  }
+  .btn-info{
+    background-color: rgb(180, 15, 81) ;
+    border:1px solid  rgb(180, 15, 81);
+    width:50%;
+  }
+  .edu{
+    background-color:rgba(128, 128, 128, 0.199) ;
+    
+  }
+}
